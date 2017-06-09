@@ -1,5 +1,5 @@
 # Auto_XGBoost
-Tune XGBoost parameters automatically.
+Tune XGBoost parameters automatically. User needs to prepare a training set and a validation set to get it working.
 
 ## Usage
 In your python script:
