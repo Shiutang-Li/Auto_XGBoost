@@ -23,10 +23,11 @@ def auto_parameter_tuner(DM_train, DM_valid,
 
 
 ### PARAMETERS:
-# DM_train       training set, converted to xgboost DM_matrix already
-# DM_train       validation set, converted to xgboost DM_matrix already
+# DM_train       training set,   converted to xgboost DM_matrix 
+# DM_train       validation set, converted to xgboost DM_matrix 
 # objective      regression: 'reg:linear'
-#                binary classification: 'binary:logistic' 
+#                binary classification: 'binary:logistic'
+#                ... etc
 # eval_metric    'rmse', 'mae', 'logloss', ... etc
 # show_details   print statistics when training the model 
 # seed           random seed
